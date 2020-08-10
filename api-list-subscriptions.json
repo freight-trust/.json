@@ -1,0 +1,12 @@
+[
+{
+"stream": "string",
+"fromBlock": "string",
+"created": "2019-08-24T14:15:22Z",
+"id": "string",
+"path": "string",
+"name": "string",
+"filter": { },
+"event": { }
+}
+]

@@ -1,0 +1,912 @@
+[
+  {
+    "DataElementDelimiter": "DataElementDelimiter",
+    "SegmentDelimiter": "SegmentDelimiter",
+    "TA1": {
+      "InterchangeDate_2": "InterchangeDate_2",
+      "InterchangeAcknowledgmentCode_4": "InterchangeAcknowledgmentCode_4",
+      "InterchangeTime_3": "InterchangeTime_3",
+      "InterchangeControlNumber_1": "InterchangeControlNumber_1",
+      "InterchangeNoteCode_5": "InterchangeNoteCode_5"
+    },
+    "ISA": {
+      "InterchangeReceiverID_8": "InterchangeReceiverID_8",
+      "SenderIDQualifier_5": "SenderIDQualifier_5",
+      "AcknowledgementRequested_14": "AcknowledgementRequested_14",
+      "SecurityInformation_4": "SecurityInformation_4",
+      "InterchangeDate_9": "InterchangeDate_9",
+      "InterchangeControlStandardsIdentifier_11": "InterchangeControlStandardsIdentifier_11",
+      "ComponentElementSeparator_16": "ComponentElementSeparator_16",
+      "SecurityInformationQualifier_3": "SecurityInformationQualifier_3",
+      "AuthorizationInformationQualifier_1": "AuthorizationInformationQualifier_1",
+      "InterchangeControlNumber_13": "InterchangeControlNumber_13",
+      "InterchangeSenderID_6": "InterchangeSenderID_6",
+      "UsageIndicator_15": "UsageIndicator_15",
+      "ReceiverIDQualifier_7": "ReceiverIDQualifier_7",
+      "InterchangeTime_10": "InterchangeTime_10",
+      "AuthorizationInformation_2": "AuthorizationInformation_2",
+      "InterchangeControlVersionNumber_12": "InterchangeControlVersionNumber_12"
+    },
+    "Groups": [
+      {
+        "Transactions": [
+          {},
+          {}
+        ],
+        "GETrailers": [
+          {
+            "NumberOfIncludedSets_1": "NumberOfIncludedSets_1",
+            "GroupControlNumber_2": "GroupControlNumber_2"
+          },
+          {
+            "NumberOfIncludedSets_1": "NumberOfIncludedSets_1",
+            "GroupControlNumber_2": "GroupControlNumber_2"
+          }
+        ],
+        "GS": {
+          "Time_5": "Time_5",
+          "ReceiverIDCode_3": "ReceiverIDCode_3",
+          "CodeIdentifyingInformationType_1": "CodeIdentifyingInformationType_1",
+          "VersionAndRelease_8": "VersionAndRelease_8",
+          "SenderIDCode_2": "SenderIDCode_2",
+          "Date_4": "Date_4",
+          "TransactionTypeCode_7": "TransactionTypeCode_7",
+          "GroupControlNumber_6": "GroupControlNumber_6"
+        }
+      },
+      {
+        "Transactions": [
+          {},
+          {}
+        ],
+        "GETrailers": [
+          {
+            "NumberOfIncludedSets_1": "NumberOfIncludedSets_1",
+            "GroupControlNumber_2": "GroupControlNumber_2"
+          },
+          {
+            "NumberOfIncludedSets_1": "NumberOfIncludedSets_1",
+            "GroupControlNumber_2": "GroupControlNumber_2"
+          }
+        ],
+        "GS": {
+          "Time_5": "Time_5",
+          "ReceiverIDCode_3": "ReceiverIDCode_3",
+          "CodeIdentifyingInformationType_1": "CodeIdentifyingInformationType_1",
+          "VersionAndRelease_8": "VersionAndRelease_8",
+          "SenderIDCode_2": "SenderIDCode_2",
+          "Date_4": "Date_4",
+          "TransactionTypeCode_7": "TransactionTypeCode_7",
+          "GroupControlNumber_6": "GroupControlNumber_6"
+        }
+      }
+    ],
+    "IEATrailers": [
+      {
+        "InterchangeControlNumber_2": "InterchangeControlNumber_2",
+        "NumberOfIncludedGroups_1": "NumberOfIncludedGroups_1"
+      },
+      {
+        "InterchangeControlNumber_2": "InterchangeControlNumber_2",
+        "NumberOfIncludedGroups_1": "NumberOfIncludedGroups_1"
+      }
+    ],
+    "Result": {
+      "Status": "Status",
+      "Details": [
+        {
+          "Status": "Status",
+          "Message": "Message",
+          "SegmentId": "SegmentId",
+          "TransactionIndex": 1,
+          "TransactionRef": "TransactionRef",
+          "Value": "Value",
+          "Index": 6,
+          "DataElementIndex": 5
+        },
+        {
+          "Status": "Status",
+          "Message": "Message",
+          "SegmentId": "SegmentId",
+          "TransactionIndex": 1,
+          "TransactionRef": "TransactionRef",
+          "Value": "Value",
+          "Index": 6,
+          "DataElementIndex": 5
+        }
+      ],
+      "LastIndex": 0
+    }
+  },
+  {
+    "DataElementDelimiter": "DataElementDelimiter",
+    "SegmentDelimiter": "SegmentDelimiter",
+    "TA1": {
+      "InterchangeDate_2": "InterchangeDate_2",
+      "InterchangeAcknowledgmentCode_4": "InterchangeAcknowledgmentCode_4",
+      "InterchangeTime_3": "InterchangeTime_3",
+      "InterchangeControlNumber_1": "InterchangeControlNumber_1",
+      "InterchangeNoteCode_5": "InterchangeNoteCode_5"
+    },
+    "ISA": {
+      "InterchangeReceiverID_8": "InterchangeReceiverID_8",
+      "SenderIDQualifier_5": "SenderIDQualifier_5",
+      "AcknowledgementRequested_14": "AcknowledgementRequested_14",
+      "SecurityInformation_4": "SecurityInformation_4",
+      "InterchangeDate_9": "InterchangeDate_9",
+      "InterchangeControlStandardsIdentifier_11": "InterchangeControlStandardsIdentifier_11",
+      "ComponentElementSeparator_16": "ComponentElementSeparator_16",
+      "SecurityInformationQualifier_3": "SecurityInformationQualifier_3",
+      "AuthorizationInformationQualifier_1": "AuthorizationInformationQualifier_1",
+      "InterchangeControlNumber_13": "InterchangeControlNumber_13",
+      "InterchangeSenderID_6": "InterchangeSenderID_6",
+      "UsageIndicator_15": "UsageIndicator_15",
+      "ReceiverIDQualifier_7": "ReceiverIDQualifier_7",
+      "InterchangeTime_10": "InterchangeTime_10",
+      "AuthorizationInformation_2": "AuthorizationInformation_2",
+      "InterchangeControlVersionNumber_12": "InterchangeControlVersionNumber_12"
+    },
+    "Groups": [
+      {
+        "Transactions": [
+          {},
+          {}
+        ],
+        "GETrailers": [
+          {
+            "NumberOfIncludedSets_1": "NumberOfIncludedSets_1",
+            "GroupControlNumber_2": "GroupControlNumber_2"
+          },
+          {
+            "NumberOfIncludedSets_1": "NumberOfIncludedSets_1",
+            "GroupControlNumber_2": "GroupControlNumber_2"
+          }
+        ],
+        "GS": {
+          "Time_5": "Time_5",
+          "ReceiverIDCode_3": "ReceiverIDCode_3",
+          "CodeIdentifyingInformationType_1": "CodeIdentifyingInformationType_1",
+          "VersionAndRelease_8": "VersionAndRelease_8",
+          "SenderIDCode_2": "SenderIDCode_2",
+          "Date_4": "Date_4",
+          "TransactionTypeCode_7": "TransactionTypeCode_7",
+          "GroupControlNumber_6": "GroupControlNumber_6"
+        }
+      },
+      {
+        "Transactions": [
+          {},
+          {}
+        ],
+        "GETrailers": [
+          {
+            "NumberOfIncludedSets_1": "NumberOfIncludedSets_1",
+            "GroupControlNumber_2": "GroupControlNumber_2"
+          },
+          {
+            "NumberOfIncludedSets_1": "NumberOfIncludedSets_1",
+            "GroupControlNumber_2": "GroupControlNumber_2"
+          }
+        ],
+        "GS": {
+          "Time_5": "Time_5",
+          "ReceiverIDCode_3": "ReceiverIDCode_3",
+          "CodeIdentifyingInformationType_1": "CodeIdentifyingInformationType_1",
+          "VersionAndRelease_8": "VersionAndRelease_8",
+          "SenderIDCode_2": "SenderIDCode_2",
+          "Date_4": "Date_4",
+          "TransactionTypeCode_7": "TransactionTypeCode_7",
+          "GroupControlNumber_6": "GroupControlNumber_6"
+        }
+      }
+    ],
+    "IEATrailers": [
+      {
+        "InterchangeControlNumber_2": "InterchangeControlNumber_2",
+        "NumberOfIncludedGroups_1": "NumberOfIncludedGroups_1"
+      },
+      {
+        "InterchangeControlNumber_2": "InterchangeControlNumber_2",
+        "NumberOfIncludedGroups_1": "NumberOfIncludedGroups_1"
+      }
+    ],
+    "Result": {
+      "Status": "Status",
+      "Details": [
+        {
+          "Status": "Status",
+          "Message": "Message",
+          "SegmentId": "SegmentId",
+          "TransactionIndex": 1,
+          "TransactionRef": "TransactionRef",
+          "Value": "Value",
+          "Index": 6,
+          "DataElementIndex": 5
+        },
+        {
+          "Status": "Status",
+          "Message": "Message",
+          "SegmentId": "SegmentId",
+          "TransactionIndex": 1,
+          "TransactionRef": "TransactionRef",
+          "Value": "Value",
+          "Index": 6,
+          "DataElementIndex": 5
+        }
+      ],
+      "LastIndex": 0
+    }
+  }
+]
+xEDI API Servlet
+
+x12
+
+POST Reads an X12 file and returns its contents translated to an array of X12Interchange objects.
+https://one.edi.zone/v2/x12/read?ignoreNullValues=false&continueOnError=false&charSet=utf-8&model=<string>
+HEADERS
+Ocp-Apim-Subscription-Key
+API key to authenticate requests
+
+Content-Typemultipart/form-data
+PARAMS
+ignoreNullValuesfalse
+Whether to ignore all null values in the response. The default is false.
+
+continueOnErrorfalse
+Whether to continue reading if a corrupt interchange is encountered. The default is false.
+
+charSetutf-8
+The encoding of the file contents. The default is utf-8. The available values are: unicodeFFFE, utf-32, utf-32BE, us-ascii, iso-8859-1, utf-7, utf-8, utf-16.
+
+model<string>
+The model to use. By default, the API will infer the model based on the transaction and version identifiers.
+
+BODY formdata
+fileName<binary>
+Upload File
+
+
+
+Example Request
+Success 
+curl --location --request POST 'https://one.edi.zone/v2/x12/read?ignoreNullValues=false&continueOnError=false&charSet=utf-8&model=%3Cstring%3E' \
+--form 'fileName=<binary>'
+Example Response
+200 OK
+Body Headers (1)
+[
+  {
+    "DataElementDelimiter": "DataElementDelimiter",
+    "SegmentDelimiter": "SegmentDelimiter",
+    "TA1": {
+      "InterchangeDate_2": "InterchangeDate_2",
+      "InterchangeAcknowledgmentCode_4": "InterchangeAcknowledgmentCode_4",
+      "InterchangeTime_3": "InterchangeTime_3",
+      "InterchangeControlNumber_1": "InterchangeControlNumber_1",
+      "InterchangeNoteCode_5": "InterchangeNoteCode_5"
+    },
+    "ISA": {
+      "InterchangeReceiverID_8": "InterchangeReceiverID_8",
+      "SenderIDQualifier_5": "SenderIDQualifier_5",
+      "AcknowledgementRequested_14": "AcknowledgementRequested_14",
+POST Translates an X12Interchange object to a raw X12 interchange and returns it as a stream.
+https://one.edi.zone/v2/x12/write?preserveWhitespace=false&charSet=utf-8&postfix=
+HEADERS
+Ocp-Apim-Subscription-Key
+API key to authenticate requests
+
+Content-Typeapplication/json
+PARAMS
+preserveWhitespacefalse
+Whether to preserve blank data elements so the output contains multiple delimiters instead of omitting any excess delimiters. The default is false.
+
+charSetutf-8
+The encoding of the file contents. The default is utf-8. The available values are: unicodeFFFE, utf-32, utf-32BE, us-ascii, iso-8859-1, utf-7, utf-8, utf-16.
+
+postfix
+The postfix to be applied at the end of each segment, just after the segment separator. This is usually a carriage return (CR), line feed (LF) or both. By default, there is no postfix.
+
+BODY raw
+{
+    "DataElementDelimiter": "<string>",
+    "Groups": [
+        {
+            "GS": {
+                "CodeIdentifyingInformationType_1": "<string>",
+                "SenderIDCode_2": "<string>",
+                "ReceiverIDCode_3": "<string>",
+                "Date_4": "<string>",
+                "Time_5": "<string>",
+                "GroupControlNumber_6": "<string>",
+                "TransactionTypeCode_7": "<string>",
+                "VersionAndRelease_8": "<string>"
+            },
+            "Transactions": [
+
+
+Example Request
+Bad Request 
+curl --location --request POST 'https://one.edi.zone/v2/x12/write?preserveWhitespace=false&charSet=utf-8&postfix=' \
+--data-raw '{
+    "DataElementDelimiter": "DataElementDelimiter",
+    "SegmentDelimiter": "SegmentDelimiter",
+    "TA1": {
+        "InterchangeDate_2": "InterchangeDate_2",
+        "InterchangeAcknowledgmentCode_4": "InterchangeAcknowledgmentCode_4",
+        "InterchangeTime_3": "InterchangeTime_3",
+        "InterchangeControlNumber_1": "InterchangeControlNumber_1",
+        "InterchangeNoteCode_5": "InterchangeNoteCode_5"
+    },
+    "ISA": {
+        "InterchangeReceiverID_8": "InterchangeReceiverID_8",
+        "SenderIDQualifier_5": "SenderIDQualifier_5",
+        "AcknowledgementRequested_14": "AcknowledgementRequested_14",
+Example Response
+400 Bad Request
+Body Headers (1)
+{
+  "Code": "<integer>",
+  "Details": [
+    "<string>",
+    "<string>"
+  ]
+}
+POST Validates an X12Interchange object according to the X12 standard rules for each version and transaction.
+https://one.edi.zone/v2/x12/validate?basicSyntax=false&syntaxSet=<string>&skipTrailer=false&structureOnly=false
+HEADERS
+Ocp-Apim-Subscription-Key
+API key to authenticate requests
+
+Content-Typeapplication/json
+PARAMS
+basicSyntaxfalse
+All data elements with alpha (A) or alphanumeric (AN) data types are validated against a syntax set of allowed characters. The default syntax set is the Extended, hence the default for this parameter is false. By setting this to true, validation will use the Basic syntax set.
+
+syntaxSet<string>
+In case you need to validate against a syntax set, different than Basic and Extended, populate this filed with all of the allowed symbols, url-escaped.
+
+skipTrailerfalse
+You are allowed to validate an X12Interchange with missing interchange, functional group or transaction trailers (IEA, GE, SE). This is because these will be automatically applied during the Write oprtaion so you don't have to worry about counting the items. By default it is expected that all trailers are present when you validate the X12Interchange and by default, this is set to false. To skip all trailer validation, set this to true.
+
+structureOnlyfalse
+This is equivalent to HIPAA Snip level 1, where only the structure and control segments are validated. By default, this is set to false, however if you want to not validate things such as data types, number of repeteitions or dates, set this to true.
+
+BODY raw
+{
+    "DataElementDelimiter": "<string>",
+    "Groups": [
+        {
+            "GS": {
+                "CodeIdentifyingInformationType_1": "<string>",
+                "SenderIDCode_2": "<string>",
+                "ReceiverIDCode_3": "<string>",
+                "Date_4": "<string>",
+                "Time_5": "<string>",
+                "GroupControlNumber_6": "<string>",
+                "TransactionTypeCode_7": "<string>",
+                "VersionAndRelease_8": "<string>"
+            },
+            "Transactions": [
+
+
+Example Request
+Server Error 
+curl --location --request POST 'https://one.edi.zone/v2/x12/validate?basicSyntax=false&syntaxSet=%3Cstring%3E&skipTrailer=false&structureOnly=false' \
+--data-raw '{
+    "DataElementDelimiter": "DataElementDelimiter",
+    "SegmentDelimiter": "SegmentDelimiter",
+    "TA1": {
+        "InterchangeDate_2": "InterchangeDate_2",
+        "InterchangeAcknowledgmentCode_4": "InterchangeAcknowledgmentCode_4",
+        "InterchangeTime_3": "InterchangeTime_3",
+        "InterchangeControlNumber_1": "InterchangeControlNumber_1",
+        "InterchangeNoteCode_5": "InterchangeNoteCode_5"
+    },
+    "ISA": {
+        "InterchangeReceiverID_8": "InterchangeReceiverID_8",
+        "SenderIDQualifier_5": "SenderIDQualifier_5",
+        "AcknowledgementRequested_14": "AcknowledgementRequested_14",
+Example Response
+500 Internal Server Error
+Body Headers (1)
+{
+  "Code": "<integer>",
+  "Details": [
+    "<string>",
+    "<string>"
+  ]
+}
+POST Generates functional/implementation and/or technical acknowledment(s) for the requested X12Interchange.
+https://one.edi.zone/v2/x12/ack?basicSyntax=false&syntaxSet=<string>&detectDuplicates=false&tranRefNumber=1&interchangeRefNumber=1&ackForValidTrans=false&batchAcks=true&technicalAck=<string>&ack=997&ak901isP=false
+HEADERS
+Ocp-Apim-Subscription-Key
+API key to authenticate requests
+
+Content-Typeapplication/json
+PARAMS
+basicSyntaxfalse
+All data elements with alpha (A) or alphanumeric (AN) data types are validated against a syntax set of allowed characters. The default syntax set is the Extended, hence the default for this parameter is false. By setting this to true, validation will use the Basic syntax set.
+
+syntaxSet<string>
+In case you need to validate against a syntax set, different than Basic and Extended, populate this filed with all of the allowed symbols, url-escaped.
+
+detectDuplicatesfalse
+If you need to detect duplicates as in functional groups or transactions with the same reference number, set this flag to true. The default is false.
+
+tranRefNumber1
+The default is 1. Set this to whatever the 997 or 999 X12Interchange.ST.TransactionSetControlNumber_02 needs to be. In case there are multiple acknowledgments (for multiple functional groups), this will be starting reference number and every subsequent acknowledgment will have the previous reference number incremented with 1.
+
+interchangeRefNumber1
+The default is 1. Set this to whatever the 997 or 999 X12Interchange.ISA.InterchangeControlNumber_13 needs to be.
+
+ackForValidTransfalse
+The default is false. Set this to true if you need AK2 loops included for all valid transaction as well. By default AK2 loops are generated only for invalid transactions.
+
+batchAckstrue
+The default is true. Set this to false if you need to generate separate X12Interchange for each acknowledgment. By default all acknowledgments are batched in the same X12Interchange.
+
+technicalAck<string>
+The default technical acknowledgment TA1 is generated according to X12Interchange.ISA.AcknowledgementRequested_14. You can either enforce it to always generate TA1s or supress it to never generate any TA1s. This will override the flag in X12Interchange.ISA.AcknowledgementRequested_14. The available values are: default, enforce, suppress.
+
+ack997
+The default value is 997. The type of acknowledgment being generated. Set this to 999 if you need to generate an implementation instead of functional acknowledgment. The available values are: 997, 999.
+
+ak901isPfalse
+The value of the AK9's first element. By default it is "E". Set this to true if you want this value to be "P" instead.
+
+BODY raw
+{
+    "DataElementDelimiter": "<string>",
+    "Groups": [
+        {
+            "GS": {
+                "CodeIdentifyingInformationType_1": "<string>",
+                "SenderIDCode_2": "<string>",
+                "ReceiverIDCode_3": "<string>",
+                "Date_4": "<string>",
+                "Time_5": "<string>",
+                "GroupControlNumber_6": "<string>",
+                "TransactionTypeCode_7": "<string>",
+                "VersionAndRelease_8": "<string>"
+            },
+            "Transactions": [
+
+
+Example Request
+Success 
+curl --location --request POST 'https://one.edi.zone/v2/x12/ack?basicSyntax=false&syntaxSet=%3Cstring%3E&detectDuplicates=false&tranRefNumber=1&interchangeRefNumber=1&ackForValidTrans=false&batchAcks=true&technicalAck=%3Cstring%3E&ack=997&ak901isP=false' \
+--data-raw '{
+    "DataElementDelimiter": "DataElementDelimiter",
+    "SegmentDelimiter": "SegmentDelimiter",
+    "TA1": {
+        "InterchangeDate_2": "InterchangeDate_2",
+        "InterchangeAcknowledgmentCode_4": "InterchangeAcknowledgmentCode_4",
+        "InterchangeTime_3": "InterchangeTime_3",
+        "InterchangeControlNumber_1": "InterchangeControlNumber_1",
+        "InterchangeNoteCode_5": "InterchangeNoteCode_5"
+    },
+    "ISA": {
+        "InterchangeReceiverID_8": "InterchangeReceiverID_8",
+        "SenderIDQualifier_5": "SenderIDQualifier_5",
+        "AcknowledgementRequested_14": "AcknowledgementRequested_14",
+Example Response
+200 OK
+Body Headers (1)
+[
+  {
+    "DataElementDelimiter": "DataElementDelimiter",
+    "SegmentDelimiter": "SegmentDelimiter",
+    "TA1": {
+      "InterchangeDate_2": "InterchangeDate_2",
+      "InterchangeAcknowledgmentCode_4": "InterchangeAcknowledgmentCode_4",
+      "InterchangeTime_3": "InterchangeTime_3",
+      "InterchangeControlNumber_1": "InterchangeControlNumber_1",
+      "InterchangeNoteCode_5": "InterchangeNoteCode_5"
+    },
+    "ISA": {
+      "InterchangeReceiverID_8": "InterchangeReceiverID_8",
+      "SenderIDQualifier_5": "SenderIDQualifier_5",
+      "AcknowledgementRequested_14": "AcknowledgementRequested_14",
+edifact
+
+POST Reads an EDIFACT file and returns its contents translated to an array of EdifactInterchange objects.
+https://one.edi.zone/v2/edifact/read?ignoreNullValues=false&continueOnError=false&charSet=utf-8&model=<string>&eancomS3=false
+HEADERS
+Ocp-Apim-Subscription-Key
+API key to authenticate requests
+
+Content-Typemultipart/form-data
+PARAMS
+ignoreNullValuesfalse
+Whether to ignore all null values in the response. The default is false.
+
+continueOnErrorfalse
+Whether to continue reading if a corrupt interchange is encountered. The default is false.
+
+charSetutf-8
+The encoding of the file contents. The default is utf-8. The available values are: unicodeFFFE, utf-32, utf-32BE, us-ascii, iso-8859-1, utf-7, utf-8, utf-16.
+
+model<string>
+The model to use. By default, the API will infer the model based on the transaction and version identifiers.
+
+eancomS3false
+The default syntax for EANCOM transactions. By default all EANCOM transactions will be translated and validated according to the rules of Syntax 4. Set this flag to true if you need Syntax 3 to be used.
+
+BODY formdata
+fileName<binary>
+Upload File
+
+
+
+Example Request
+Server Error 
+curl --location --request POST 'https://one.edi.zone/v2/edifact/read?ignoreNullValues=false&continueOnError=false&charSet=utf-8&model=%3Cstring%3E&eancomS3=false' \
+--form 'fileName=<binary>'
+Example Response
+500 Internal Server Error
+Body Headers (1)
+{
+  "Code": "<integer>",
+  "Details": [
+    "<string>",
+    "<string>"
+  ]
+}
+POST Translates an EdifactInterchange object to a raw EDIFACT interchange and returns it as a stream.
+https://one.edi.zone/v2/edifact/write?preserveWhitespace=false&charSet=utf-8&postfix=&sameRepetionAndDataElement=false&eancomS3=false
+HEADERS
+Ocp-Apim-Subscription-Key
+API key to authenticate requests
+
+Content-Typeapplication/json
+PARAMS
+preserveWhitespacefalse
+Whether to preserve blank data elements so the output contains multiple delimiters instead of omitting any excess delimiters. The default is false.
+
+charSetutf-8
+The encoding of the file contents. The default is utf-8. The available values are: unicodeFFFE, utf-32, utf-32BE, us-ascii, iso-8859-1, utf-7, utf-8, utf-16.
+
+postfix
+The postfix to be applied at the end of each segment, just after the segment separator. This is usually a carriage return (CR), line feed (LF) or both. By default, there is no postfix.
+
+sameRepetionAndDataElementfalse
+Sometimes the same delimiter is used to denote data element separator and repetition separator as in IATA transactions. By default, this is false.
+
+eancomS3false
+The default syntax for EANCOM transactions. By default all EANCOM transactions will be translated and validated according to the rules of Syntax 4. Set this flag to true if you need Syntax 3 to be used.
+
+BODY raw
+{
+    "Groups": [
+        {
+            "Transactions": [
+                "<object>",
+                "<object>"
+            ],
+            "UNG": {
+                "MessageGroupIdentification_1": "<string>",
+                "APPLICATIONSENDERIDENTIFICATION_2": {
+                    "ApplicationSenderIdentification_1": "<string>",
+                    "IdentificationCodeQualifier_2": "<string>"
+                },
+                "APPLICATIONRECIPIENTIDENTIFICATION_3": {
+                    "ApplicationRecipientIdentification_1": "<string>",
+
+
+Example Request
+Server Error 
+curl --location --request POST 'https://one.edi.zone/v2/edifact/write?preserveWhitespace=false&charSet=utf-8&postfix=&sameRepetionAndDataElement=false&eancomS3=false' \
+--data-raw '{
+    "Groups": [
+        {
+            "Transactions": [
+                {},
+                {}
+            ],
+            "UNETrailers": [
+                {
+                    "GroupReferenceNumber_2": "GroupReferenceNumber_2",
+                    "GroupControlCount_1": "GroupControlCount_1"
+                },
+                {
+                    "GroupReferenceNumber_2": "GroupReferenceNumber_2",
+Example Response
+500 Internal Server Error
+Body Headers (1)
+{
+  "Code": "<integer>",
+  "Details": [
+    "<string>",
+    "<string>"
+  ]
+}
+POST Validates an EdifactInterchange object according to the EDIFACT standard rules for each version and transaction.
+https://one.edi.zone/v2/edifact/validate?syntaxSet=<string>&skipTrailer=false&structureOnly=false&decimalPoint=.&eancomS3=false
+HEADERS
+Ocp-Apim-Subscription-Key
+API key to authenticate requests
+
+Content-Typeapplication/json
+PARAMS
+syntaxSet<string>
+In case you need to validate against a syntax set, different than UNOA and UNOB, populate this filed with all of the allowed symbols, url-escaped. All data elements with alpha (A) or alphanumeric (AN) data types are validated against a syntax set of allowed characters. The supported syntax sets are UNOA and UNOB. The validator infers the correct syntax set from EdifactInterchange.UNB.SYNTAXIDENTIFIER_1.SyntaxIdentifier_1. The symbols added to this field will override the corresponding sets in both UNOA and UNOB.
+
+skipTrailerfalse
+You are allowed to validate an EdifactInterchange with missing interchange, functional group or transaction trailers (UNZ, UNE, UNT). This is because these will be automatically applied during the Write oprtaion so you don't have to worry about counting the items. By default it is expected that all trailers are present when you validate the EdifactInterchange and by default, this is set to false. To skip all trailer validation, set this to true.
+
+structureOnlyfalse
+This is equivalent to HIPAA Snip level 1, where only the structure and control segments are validated. By default, this is set to false, however if you want to not validate things such as data types, number of repeteitions or dates, set this to true.
+
+decimalPoint.
+This could be either point . (default) or comma ,.
+
+eancomS3false
+The default syntax for EANCOM transactions. By default all EANCOM transactions will be validated according to the rules of Syntax 4. Set this flag to true if you need Syntax 3 to be used.
+
+BODY raw
+{
+    "Groups": [
+        {
+            "Transactions": [
+                "<object>",
+                "<object>"
+            ],
+            "UNG": {
+                "MessageGroupIdentification_1": "<string>",
+                "APPLICATIONSENDERIDENTIFICATION_2": {
+                    "ApplicationSenderIdentification_1": "<string>",
+                    "IdentificationCodeQualifier_2": "<string>"
+                },
+                "APPLICATIONRECIPIENTIDENTIFICATION_3": {
+                    "ApplicationRecipientIdentification_1": "<string>",
+
+
+Example Request
+Success 
+curl --location --request POST 'https://one.edi.zone/v2/edifact/validate?syntaxSet=%3Cstring%3E&skipTrailer=false&structureOnly=false&decimalPoint=.&eancomS3=false' \
+--data-raw '{
+    "Groups": [
+        {
+            "Transactions": [
+                {},
+                {}
+            ],
+            "UNETrailers": [
+                {
+                    "GroupReferenceNumber_2": "GroupReferenceNumber_2",
+                    "GroupControlCount_1": "GroupControlCount_1"
+                },
+                {
+                    "GroupReferenceNumber_2": "GroupReferenceNumber_2",
+Example Response
+200 OK
+Body Headers (1)
+{
+  "Status": "Status",
+  "Details": [
+    {
+      "Status": "Status",
+      "Message": "Message",
+      "SegmentId": "SegmentId",
+      "TransactionIndex": 1,
+      "TransactionRef": "TransactionRef",
+      "Value": "Value",
+      "Index": 6,
+      "DataElementIndex": 5
+    },
+    {
+      "Status": "Status",
+POST Generates functional and/or technical CONTRL acknowledment(s) for the requested EdifactInterchange.
+https://one.edi.zone/v2/edifact/ack?syntaxSet=<string>&detectDuplicates=false&tranRefNumber=1&interchangeRefNumber=1&ackForValidTrans=false&batchAcks=true&technicalAck=<string>&eancomS3=false
+HEADERS
+Ocp-Apim-Subscription-Key
+API key to authenticate requests
+
+Content-Typeapplication/json
+PARAMS
+syntaxSet<string>
+In case you need to validate against a syntax set, different than UNOA and UNOB, populate this filed with all of the allowed symbols, url-escaped. All data elements with alpha (A) or alphanumeric (AN) data types are validated against a syntax set of allowed characters. The supported syntax sets are UNOA and UNOB. The validator infers the correct syntax set from EdifactInterchange.UNB.SYNTAXIDENTIFIER_1.SyntaxIdentifier_1. The symbols added to this field will override the corresponding sets in both UNOA and UNOB.
+
+detectDuplicatesfalse
+If you need to detect duplicates as in functional groups or transactions with the same reference number, set this flag to true. The default is false.
+
+tranRefNumber1
+The default is 1. Set this to whatever the CONTRL UNH.MessageReferenceNumber_01 needs to be.
+
+interchangeRefNumber1
+The default is 1. Set this to whatever the CONTRL EdifactInterchange.UNB.InterchangeControlReference_5 needs to be.
+
+ackForValidTransfalse
+The default is false. Set this to true if you need UCM loops included for all valid transaction as well. By default UCM loops are generated only for invalid transactions.
+
+batchAckstrue
+The default is true. Set this to false if you need to generate separate EdifactInterchange for each acknowledgment. By default all acknowledgments are batched in the same EdifactInterchange.
+
+technicalAck<string>
+The default technical acknowledgment CONTRL is generated according to EdifactInterchange.UNB.AcknowledgementRequest_9. You can either enforce it to always generate technical CONTRLs or supress it to never generate any technical CONTRLs. This will override the flag in EdifactInterchange.UNB.AcknowledgementRequest_9. The available values are: default, enforce, suppress.
+
+eancomS3false
+The default syntax for EANCOM transactions. By default all EANCOM transactions will be validated according to the rules of Syntax 4. Set this flag to true if you need Syntax 3 to be used.
+
+BODY raw
+{
+    "Groups": [
+        {
+            "Transactions": [
+                "<object>",
+                "<object>"
+            ],
+            "UNG": {
+                "MessageGroupIdentification_1": "<string>",
+                "APPLICATIONSENDERIDENTIFICATION_2": {
+                    "ApplicationSenderIdentification_1": "<string>",
+                    "IdentificationCodeQualifier_2": "<string>"
+                },
+                "APPLICATIONRECIPIENTIDENTIFICATION_3": {
+                    "ApplicationRecipientIdentification_1": "<string>",
+
+
+Example Request
+Bad Request 
+curl --location --request POST 'https://one.edi.zone/v2/edifact/ack?syntaxSet=%3Cstring%3E&detectDuplicates=false&tranRefNumber=1&interchangeRefNumber=1&ackForValidTrans=false&batchAcks=true&technicalAck=%3Cstring%3E&eancomS3=false' \
+--data-raw '{
+    "Groups": [
+        {
+            "Transactions": [
+                {},
+                {}
+            ],
+            "UNETrailers": [
+                {
+                    "GroupReferenceNumber_2": "GroupReferenceNumber_2",
+                    "GroupControlCount_1": "GroupControlCount_1"
+                },
+                {
+                    "GroupReferenceNumber_2": "GroupReferenceNumber_2",
+Example Response
+400 Bad Request
+Body Headers (1)
+{
+  "Code": "<integer>",
+  "Details": [
+    "<string>",
+    "<string>"
+  ]
+}
+models
+
+{id}
+
+GET Retrieve a particular model file as a stream.
+https://one.edi.zone/v2/models/:id
+HEADERS
+Ocp-Apim-Subscription-Key
+API key to authenticate requests
+
+PATH VARIABLES
+id<string>
+(Required) The model name.
+
+
+
+Example Request
+Bad Request 
+curl --location --request GET 'https://one.edi.zone/v2/models/:id'
+Example Response
+400 Bad Request
+Body Headers (1)
+{
+  "Code": "<integer>",
+  "Details": [
+    "<string>",
+    "<string>"
+  ]
+}
+DEL Deletes a particular model from the custom models.
+https://one.edi.zone/v2/models/:id
+HEADERS
+Ocp-Apim-Subscription-Key
+API key to authenticate requests
+
+PATH VARIABLES
+id<string>
+(Required) The model name.
+
+
+
+Example Request
+Server Error 
+curl --location --request DELETE 'https://one.edi.zone/v2/models/:id'
+Example Response
+500 Internal Server Error
+Body Headers (1)
+{
+  "Code": "<integer>",
+  "Details": [
+    "<string>",
+    "<string>"
+  ]
+}
+GET Retrieves all transactions in a model file.
+https://one.edi.zone/v2/models/:id/transactions?system=true
+HEADERS
+Ocp-Apim-Subscription-Key
+API key to authenticate requests
+
+PARAMS
+systemtrue
+Whether to search in EDIStream's or custom uploaded models.
+
+PATH VARIABLES
+id<string>
+(Required) The model name.
+
+
+
+Example Request
+Bad Request 
+curl --location --request GET 'https://one.edi.zone/v2/models/:id/transactions?system=true'
+Example Response
+400 Bad Request
+Body Headers (1)
+{
+  "Code": "<integer>",
+  "Details": [
+    "<string>",
+    "<string>"
+  ]
+}
+GET Retrieves all models for a subscription.
+https://one.edi.zone/v2/models?system=true
+HEADERS
+Ocp-Apim-Subscription-Key
+API key to authenticate requests
+
+PARAMS
+systemtrue
+Whether to retrieve EDIStream's or custom uploaded models.
+
+
+
+Example Request
+Bad Request 
+curl --location --request GET 'https://one.edi.zone/v2/models?system=true'
+Example Response
+400 Bad Request
+Body Headers (1)
+{
+  "Code": "<integer>",
+  "Details": [
+    "<string>",
+    "<string>"
+  ]
+}
+POST Uploads a model file to a subscription. It must be a valid DOT NET assembly.
+https://one.edi.zone/v2/models
+HEADERS
+Ocp-Apim-Subscription-Key
+API key to authenticate requests
+
+Content-Typemultipart/form-data
+BODY formdata
+fileName<binary>
+Upload File
+
+
+
+Example Request
+Bad Request 
+curl --location --request POST 'https://one.edi.zone/v2/models' \
+--form 'fileName=<binary>'
+Example Response
+400 Bad Request
+Body Headers (1)
+{
+  "Code": "<integer>",
+  "Details": [
+    "<string>",
+    "<string>"
+  ]
+}
+XEDI API SERVLE

@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "stream": {
+          "type": "string"
+        },
+        "fromBlock": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "filter": {
+          "type": "object"
+        },
+        "event": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "stream",
+        "fromBlock",
+        "created",
+        "id",
+        "path",
+        "name",
+        "filter",
+        "event"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "auth" : {
+  	"freightTrustAPI" : {
+  		"sig": "{{sig}}"
+  	}, 
+  	"ownerAuth" : {
+  		"sig": "{{sig1}}"
+  	}, "partAuth" : {
+  		"sig": "{{sig2}}"
+  	}
+  }
+}'
