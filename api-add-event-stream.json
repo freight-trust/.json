@@ -1,18 +1,18 @@
 {
-"created": "2019-08-24T14:15:22Z",
-"id": "string",
-"path": "string",
-"type": "webhook",
-"suspended": true,
-"batchSize": 1,
-"batchTimeoutMS": 5000,
-"retryTimeoutSec": 0,
-"errorHandling": "block",
-"blockedReryDelaySec": 30,
-"webhook": {
-"url": "string",
-"headers": { },
-"tlsSkipHostVerify": true,
-"requestTimeoutSec": 0
-}
+  "created": "2019-08-24T14:15:22Z",
+  "id": "string",
+  "path": "string",
+  "type": "webhook",
+  "suspended": true,
+  "batchSize": 1,
+  "batchTimeoutMS": 5000,
+  "retryTimeoutSec": 0,
+  "errorHandling": "block",
+  "blockedReryDelaySec": 30,
+  "webhook": {
+    "url": "string",
+    "headers": {},
+    "tlsSkipHostVerify": true,
+    "requestTimeoutSec": 0
+  }
 }

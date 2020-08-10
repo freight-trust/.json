@@ -201,11 +201,7 @@
                   ]
                 }
               },
-              "required": [
-                "Transactions",
-                "GETrailers",
-                "GS"
-              ]
+              "required": ["Transactions", "GETrailers", "GS"]
             },
             {
               "type": "object",
@@ -296,11 +292,7 @@
                   ]
                 }
               },
-              "required": [
-                "Transactions",
-                "GETrailers",
-                "GS"
-              ]
+              "required": ["Transactions", "GETrailers", "GS"]
             }
           ]
         },
@@ -432,11 +424,7 @@
               "type": "integer"
             }
           },
-          "required": [
-            "Status",
-            "Details",
-            "LastIndex"
-          ]
+          "required": ["Status", "Details", "LastIndex"]
         }
       },
       "required": [
@@ -648,11 +636,7 @@
                   ]
                 }
               },
-              "required": [
-                "Transactions",
-                "GETrailers",
-                "GS"
-              ]
+              "required": ["Transactions", "GETrailers", "GS"]
             },
             {
               "type": "object",
@@ -743,11 +727,7 @@
                   ]
                 }
               },
-              "required": [
-                "Transactions",
-                "GETrailers",
-                "GS"
-              ]
+              "required": ["Transactions", "GETrailers", "GS"]
             }
           ]
         },
@@ -879,11 +859,7 @@
               "type": "integer"
             }
           },
-          "required": [
-            "Status",
-            "Details",
-            "LastIndex"
-          ]
+          "required": ["Status", "Details", "LastIndex"]
         }
       },
       "required": [

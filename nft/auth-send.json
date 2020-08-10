@@ -1,10 +1,10 @@
 {
-  "auth" : {
-  	"freightTrustAuth" : {
-  		"sig": "{{sig}}"
-  		
-  	}, "senderAuth" : {
-  		"sig": "{{sig1}}"
-  	}
+  "auth": {
+    "freightTrustAuth": {
+      "sig": "{{sig}}"
+    },
+    "senderAuth": {
+      "sig": "{{sig1}}"
+    }
   }
 }

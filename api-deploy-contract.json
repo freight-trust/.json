@@ -1,26 +1,24 @@
 {
-"headers": {
-"type": "DeployContract"
-},
-"from": "string",
-"to": "string",
-"methodName": "string",
-"params": [
-{
-"type": "string",
-"value": "string"
-}
-],
-"soldity": "string",
-"contractName": "string",
-"compilerVersion": "0.4",
-"compiled": "string",
-"gas": "string",
-"gasPrice": "string",
-"value": "string",
-"nonce": "string",
-"privateFrom": "string",
-"privateFor": [
-"string"
-]
+  "headers": {
+    "type": "DeployContract"
+  },
+  "from": "string",
+  "to": "string",
+  "methodName": "string",
+  "params": [
+    {
+      "type": "string",
+      "value": "string"
+    }
+  ],
+  "soldity": "string",
+  "contractName": "string",
+  "compilerVersion": "0.4",
+  "compiled": "string",
+  "gas": "string",
+  "gasPrice": "string",
+  "value": "string",
+  "nonce": "string",
+  "privateFrom": "string",
+  "privateFor": ["string"]
 }
