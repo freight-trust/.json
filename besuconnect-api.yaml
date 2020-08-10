@@ -16,11 +16,11 @@ servers:
       You can find it in the "+ Connect" panel of your node.
     variables:
       environment_id:
-        default: 
+        default:
       node_id:
-        default: 
+        default:
       zone_domain:
-        default: 
+        default:
 tags:
   - name: Smart Contract REST APIs
     description: >
@@ -310,7 +310,8 @@ components:
       type: object
       properties:
         headers:
-          description: Headers section used in requests, and extended in asynchronous
+          description:
+            Headers section used in requests, and extended in asynchronous
             response messages
           type: object
           properties:
@@ -323,7 +324,8 @@ components:
           required:
             - type
         from:
-          description: The address to use when signing the transaction. Must be a wallet
+          description:
+            The address to use when signing the transaction. Must be a wallet
             managed by Freight Trust Network. For example account[0] on the node.
           type: string
           pattern: ^(0x)?[0-9a-zA-Z]{40}$
@@ -343,12 +345,14 @@ components:
             type: object
             properties:
               type:
-                description: The solidity type of the paramter, such as 'uint256' or
+                description:
+                  The solidity type of the paramter, such as 'uint256' or
                   'bytes32'. Supplying this with the simple webhook payload
                   allows invocation of contracts without requiring a full ABI.
                 type: string
               value:
-                description: The value to pass to the parameter (optionally supply a number
+                description:
+                  The value to pass to the parameter (optionally supply a number
                   or boolean rather than a string, depending on the Solidity
                   type and precision required)
                 type: string
@@ -372,7 +376,8 @@ components:
           type: string
           format: byte
         gas:
-          description: The maximum gas the transaction can consume - omit to allow
+          description:
+            The maximum gas the transaction can consume - omit to allow
             ethconnect to perform a gas estimation
           type: string
         gasPrice:
@@ -382,16 +387,19 @@ components:
           description: An optional ETH value to send along with the tranaction
           type: string
         nonce:
-          description: Assign an explicit nonce to the transaction - omit to allow
+          description:
+            Assign an explicit nonce to the transaction - omit to allow
             ethconnect to manage the nonce
           type: string
           pattern: ^[0-9]+$
         privateFrom:
-          description: EEA privacy extensions privateFrom address for private transaction
+          description:
+            EEA privacy extensions privateFrom address for private transaction
             support (Quorum Tessera / PegaSys Orion)
           type: string
         privateFor:
-          description: EEA privacy extensions privateFor addresses for private transaction
+          description:
+            EEA privacy extensions privateFor addresses for private transaction
             support (Quorum Tessera / PegaSys Orion)
           type: array
           items:
@@ -403,57 +411,67 @@ components:
       type: object
       properties:
         id:
-          description: Request identifier to use when querying for transaction results in
+          description:
+            Request identifier to use when querying for transaction results in
             the receipt store
           type: string
         sent:
-          description: Whether the request was successfully sent to the Kafka reliable
+          description:
+            Whether the request was successfully sent to the Kafka reliable
             delivery transport - no acknowledgement is obtained
           type: boolean
     BesuconnectWebhookResponseAck:
       type: object
       properties:
         id:
-          description: Request identifier to use when querying for transaction results in
+          description:
+            Request identifier to use when querying for transaction results in
             the receipt store
           type: string
         sent:
-          description: Whether the request was successfully sent to the Kafka reliable
+          description:
+            Whether the request was successfully sent to the Kafka reliable
             delivery transport - an acknowledgement is received from Kafka
             before replying
           type: boolean
         msg:
-          description: Identifier of the Kafka message that has been acknowledged as
+          description:
+            Identifier of the Kafka message that has been acknowledged as
             received by the reliable delivery transport
           type: string
     BesuconnectNewContractFormData:
       type: object
       properties:
         findsolidity:
-          description: "Discovery mode: If set then the response will be an array of
+          description:
+            "Discovery mode: If set then the response will be an array of
             Solidity files found in the supplied files, rather than attempting
             the compilation (can also be set as a URL query parameter)"
           type: string
         findcontracts:
-          description: "Discovery mode: If set then the response will be an array of
+          description:
+            "Discovery mode: If set then the response will be an array of
             contract names returned by solc in the compiled output,
             rather than attempting to install the REST API (can also be set as a
             URL query parameter)"
           type: string
         source:
-          description: If a zip/tarball is supplied containing multiple solidity files,
+          description:
+            If a zip/tarball is supplied containing multiple solidity files,
             this field is required to set the Solidity source code file to
             compile (can also be set as a URL query parameter). Use
             findsolidity to find possible values.
           type: string
         contract:
-          description: If the compilation results in multipel contracts, this field is
+          description:
+            If the compilation results in multipel contracts, this field is
             required to set the contract name to use when deploying contracts
             via the factory methods (can also be set as a URL query parameter).
             Use findcontracts to find possible values.
           type: string
         "*":
-          description: "Any other properties should be file-content: .sol .zip .tar .tgz
+          description:
+            "Any other properties should be file-content: .sol .zip .tar .tgz
             .tar.gz .tar.bz2 files are supported"
           type: string
           format: binary
@@ -474,11 +492,13 @@ components:
           description: The base path of the ABI resource on the REST API Gateway API
           type: string
         deployable:
-          description: Whether full bytecode for deployment of the contract has been
+          description:
+            Whether full bytecode for deployment of the contract has been
             supplied, so the API can be used as a factory
           type: boolean
         openapi:
-          description: Full URL to query the OpenAPI 2.0 (Swagger) interface of the REST
+          description:
+            Full URL to query the OpenAPI 2.0 (Swagger) interface of the REST
             API generated for the ABI
           type: boolean
         compilerVersion:
@@ -516,20 +536,23 @@ components:
           maximum: 1000
           default: 1
         batchTimeoutMS:
-          description: The number of milliseoconds to wait to fill the batchSize before
+          description:
+            The number of milliseoconds to wait to fill the batchSize before
             delivery
           type: integer
           minimum: 0
           default: 5000
         retryTimeoutSec:
-          description: Amount of time to perform exponential backoff retry for if the
+          description:
+            Amount of time to perform exponential backoff retry for if the
             endpoint is unable to process a message, before either failing the
             batch, or entrying blocked state (0 means no backoff retry)
           type: integer
           minimum: 0
           default: 0
         errorHandling:
-          description: Error handling mode defines whether to discard events and move onto
+          description:
+            Error handling mode defines whether to discard events and move onto
             the next batch if they cannot be processed after the retryTimeoutSec
             configured retry interval, or enter a blocked state retrying the
             batch indefinitely
@@ -538,7 +561,8 @@ components:
             - block
             - skip
         blockedReryDelaySec:
-          description: If configured to block indefinitely to deliver events, this is the
+          description:
+            If configured to block indefinitely to deliver events, this is the
             long retry that comes into effect after any exponential backoff
             retry period
           type: integer
@@ -554,7 +578,8 @@ components:
               description: Custom headers to pass to the URL, such as an API Key
               type: object
             tlsSkipHostVerify:
-              description: Set when using TLS encrypted HTTPS connections to invoke a test
+              description:
+                Set when using TLS encrypted HTTPS connections to invoke a test
                 endpoint, that does not have a verifiable certificate
                 (self-signed, or not matching the hostname in the URL)
               type: boolean
@@ -569,11 +594,13 @@ components:
       type: object
       properties:
         stream:
-          description: The ID of the Event Stream to which this Subscription delivers
+          description:
+            The ID of the Event Stream to which this Subscription delivers
             messages
           type: string
         fromBlock:
-          description: The first block from which to deliver messages - use 'latest' to
+          description:
+            The first block from which to deliver messages - use 'latest' to
             subscribe from the current block
           type: string
     BesuconnectFullSubscription:
@@ -592,19 +619,22 @@ components:
               description: The resource path of the Subscription
               type: string
             name:
-              description: Descriptive name of the subscription generated from the
+              description:
+                Descriptive name of the subscription generated from the
                 registered event signature
                 ContractAddr:EventName(type1,type2)
               type: string
             stream:
-              description: The ID of the Event Stream to which this Subscription delivers
+              description:
+                The ID of the Event Stream to which this Subscription delivers
                 messages
               type: string
             fromBlock:
               description: "The first block from which to generate "
               type: string
             filter:
-              description: Details of the addresses and topics this filter is registered
+              description:
+                Details of the addresses and topics this filter is registered
                 against
               type: object
             event:
